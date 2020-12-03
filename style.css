@@ -4,3 +4,66 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: violet;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box1 {
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+  background-color: pink;
+}
+
+.box1:first-child {
+  margin-right: auto;
+}
+
+main {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: lightgreen;
+}
+
+.blog {
+  max-width: 700px;
+  flex-grow: 1;
+  background-color: limegreen;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: skyblue;
+}
